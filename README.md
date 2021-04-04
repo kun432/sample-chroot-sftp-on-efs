@@ -1,4 +1,4 @@
-# scp-chroot-efs-example
+# sample-chroot-sftp-on-efs
 
 chrootなsftp環境をEFS上で作成するサンプルのTerraform
 
@@ -26,5 +26,4 @@ terraform apply
 
 - chrootなsftpが設定されたec2インスタンスの作成
 - 上記のAMI
-- auto scaling
-- NLB
+- auto scaling+NLB
